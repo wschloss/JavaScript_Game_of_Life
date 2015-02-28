@@ -1,0 +1,28 @@
+html {
+	line-height: 10px;
+
+}
+
+div#cell {
+	border: 1px solid black;
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#cell.alive {
+	background: black;
+}
+
+div#cell.dead {
+	background: white;
+}
+
+body {
+	width: 1125px;
+	height: 1125px;
+	border: 1px solid black;
+	margin: auto;
+}
