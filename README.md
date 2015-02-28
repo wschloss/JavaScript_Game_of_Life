@@ -14,14 +14,14 @@ I was reading a game developer's blog article about a cool 2D game called Galak-
 
 This implementation uses the traditional rules (taken from [wikipedia](http://en.wikipedia.org/wiki/Conway's_Game_of_Life)):
 
-	*Any live cell with fewer than two live neighbours dies, as if caused by under-population.
-	*Any live cell with two or three live neighbours lives on to the next generation.
-	*Any live cell with more than three live neighbours dies, as if by overcrowding.
-	*Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+* Any live cell with fewer than two live neighbours dies, as if caused by under-population.
+* Any live cell with two or three live neighbours lives on to the next generation.
+* Any live cell with more than three live neighbours dies, as if by overcrowding.
+* Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 You can click on cells to toggle there state (black is alive), and then enter a number of iterations to step through and click step to watch the evolution.  The clear button will set all cells to dead again.
 
 ###### I want to...
 
-	*Spiffy up the page so it looks nicer
-	*Add a select box and load button to load up some pre-existing interesting patterns you can read about on wikipedia.
+* Spiffy up the page so it looks nicer
+* Add a select box and load button to load up some pre-existing interesting patterns you can read about on wikipedia.
